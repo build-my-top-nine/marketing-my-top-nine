@@ -50,7 +50,7 @@ p {
     top: 210px;
 }
 
-.drop-body2 {
+.drop-body-down {
     position: absolute;
     top: 2px;
 }
@@ -84,6 +84,16 @@ p {
     color:  #3d348b;
     border: 1px solid #3d348b;
     font-weight: bold;
+}
+
+@media (min-width: 500px) {
+    .dropdown-down,
+    .dropdown-items-down {
+        display: none;
+    }
+    .drop-body {
+        top: 0px;
+    }
 }
 
 
