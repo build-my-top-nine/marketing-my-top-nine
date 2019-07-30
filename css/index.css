@@ -33,6 +33,54 @@ p {
     font-size: .75rem;
 }
 
+.mobile-header {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdownmenu {
+    display: none;
+}
+
+.drop-body{
+    position: absolute;
+    top: 210px;
+}
+
+.dropdown-down {
+    position: absolute;
+    top: 0px;
+    height: 150px;
+    display: block;
+    width: 100%;
+}
+
+.dropdown-items-down {
+    display: block;
+    border: 1px solid white;
+    width: 100%;
+    color: red;
+    font-size: 1rem;
+    z-index: 1;
+    font-size: 1.2rem;
+    color: #7678ED;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown-items-down:hover {
+    color:  #3d348b;
+    border: 1px solid #3d348b;
+    font-weight: bold;
+}
+
 
 nav {
     color: white;
@@ -44,16 +92,12 @@ nav {
     white-space: nowrap;
 }
 
-@media (max-width: 1000px) {
-    nav {
-        width: 90%;
-    }
-}
+
 
 nav a {
     text-decoration: none;
     color: #d1bce3;
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
 nav a:hover {
@@ -68,8 +112,28 @@ nav h3 {
     background: rgba(255, 255, 255, 0.15);
     padding: 1rem 7.5%;
 }
+@media (max-width: 1000px) {
+    nav a{
+       padding: 1rem 0;
+    }
 
+    nav h3 {
+        padding: 1rem 5%;
+    }
+}
 
+@media (max-width: 500px) {
+    nav a{
+        display: none;
+    }
+    .non-mobile-header {
+        display: none;
+    }
+    .mobile-header {
+        display: block;
+    }
+
+}
 
 button {
     font-size: 1rem;
