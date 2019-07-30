@@ -50,6 +50,11 @@ p {
     top: 210px;
 }
 
+.drop-body2 {
+    position: absolute;
+    top: 0px;
+}
+
 .dropdown-down {
     position: absolute;
     top: 0px;
@@ -70,7 +75,7 @@ p {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 1rem;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.95);
     text-align: center;
     text-decoration: none;
 }
@@ -221,7 +226,7 @@ button:hover {
 
 @media (max-width: 500px) {
     .call-to-action {
-        width: 100%;
+        width: 90%;
     }
     .first {
         flex-wrap: wrap;
