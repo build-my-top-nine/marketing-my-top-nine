@@ -10,7 +10,7 @@ function menuVisibility () {
 
 menuButtonSelector.addEventListener('click', () => {
     console.log('clicked menu')
-    menuButtonSelector.classList.toggle("drop-body2")
+    menuButtonSelector.classList.toggle("drop-body-down")
     mobileBodySelector.classList.toggle("drop-body")
     dropDownSelector.classList.toggle("dropdown-down");
     dropDownItemSelector[0].classList.toggle("dropdown-items-down");
