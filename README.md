@@ -32,6 +32,10 @@ Installation:
 - Using any terminal clone project to the desired folder.
 - Open index.html file.
 
+Contributions:
+
+-Please feel free to submit a pull request if you have a cool new feature or a bug fix that you'd liek to contribute
+
 Credits:
 
 Ali Dervisoglu: Web UI Developer 1
