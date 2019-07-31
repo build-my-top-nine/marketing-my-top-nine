@@ -9,8 +9,14 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;  
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -117,6 +123,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 nav h3 {
@@ -177,6 +184,11 @@ button:hover {
     color: #3d348b;
 }
 
+.call-to-action button:hover {
+    transition: transform .25s;
+    transform: scale(1.2);
+}
+
 .nondesktopbutton {
     display: none;
 }
@@ -215,6 +227,7 @@ button:hover {
 
 .banner1 img {
     width: 100%;
+    height: 40%;
 }
 
 .banner1 h2 {
@@ -233,6 +246,12 @@ button:hover {
 .banner1 button{
     margin: 1rem;
 }
+
+.first.banner {
+    padding-top: 150px;
+}
+
+
 
 @media (max-width: 500px) {
     .call-to-action {
@@ -264,6 +283,7 @@ button:hover {
     background: #c49bbb;
     padding-top: 5%;
     margin-top: 50px;
+
 }
 
 .second-banner-content {
@@ -297,6 +317,8 @@ button:hover {
     margin-right: 0%;
     width: 80%;
     text-align: center;
+    position: relative;
+
     }
 
     .second-banner-content button {
@@ -323,12 +345,13 @@ button:hover {
         text-align: center;
         padding: 1.5rem;
     }
+    .demo {
+        display: none;
+    }
+
 }
 
-footer {
-    text-align: center;
-    padding: 20px 0;
-}
+
 
 .democentering {
     margin: auto 0;
@@ -336,5 +359,10 @@ footer {
 }
 
 .democentering h2 {
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
     padding: 20px 0;
 }
