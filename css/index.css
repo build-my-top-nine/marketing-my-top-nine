@@ -279,7 +279,7 @@ button:hover {
         padding-bottom: 20px;
     }
     .second {
-        margin-top: 100%;
+        
         width: 80%;
     }
   }
@@ -295,9 +295,6 @@ button:hover {
     width: 100%;
     height: 200px;
     background: #c49bbb;
-    padding-top: 5%;
-    margin-top: 50px;
-
 }
 
 .second-banner-content {
@@ -309,6 +306,7 @@ button:hover {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
     background: rgba(255, 255, 255, 0.15);
 }
 
