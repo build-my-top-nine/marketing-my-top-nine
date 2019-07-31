@@ -33,6 +33,7 @@ Installation:
 - Open index.html file.
 
 Credits:
+
 Ali Dervisoglu: Web UI Developer 1
 
 Steven Vandenburg: Web UI Developer 2
