@@ -364,17 +364,18 @@ button:hover {
 }
 
 
-
-.democentering {
-    margin: auto 0;
-    text-align: center;
-}
-
-.democentering h2 {
-    padding: 20px 0;
-}
+/* Footer Styles */
 
 footer {
     text-align: center;
     padding: 20px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    padding: 5px 0;
 }
