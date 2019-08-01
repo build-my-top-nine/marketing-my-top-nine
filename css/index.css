@@ -67,7 +67,7 @@
 
     header {
         height: 500px;
-        background: linear-gradient(to bottom right, #3d348b, #c49bbb)
+        background: linear-gradient(to bottom, #3d348b, #c49bbb)
     }
 
     .mobile-header {
@@ -387,11 +387,14 @@
     footer {
         text-align: center;
         padding: 20px 0;
+        background: linear-gradient(to top , #3d348b, #c49bbb);
+        color: white;
+        font-weight: 300;
     }
 
     footer a {
         text-decoration: none;
-        color: black;
+        color: white;
     }
 
     footer p {
