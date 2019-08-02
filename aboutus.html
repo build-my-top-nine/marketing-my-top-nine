@@ -11,49 +11,73 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Heebo:300,400&display=swap" rel="stylesheet">
     <link href="css/aboutus.css" rel="stylesheet">
-    <script src="js/aboutus.js"></script>
+    <link rel="icon" href="https://img.icons8.com/color/96/000000/9-circle.png">
+
+
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="dropdown">
+        <a href="index.html" class="dropdown-item">Home</a>
+        <a href="aboutus.html" class="dropdown-item">Meet The Team</a>
+        <a href="#" class="dropdown-item">Contact Form</a>
+        <a href="#" class="dropdown-item">Log In</a>
+    </div>
+    <div class="mobilemove">
         <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
+            <div class="container">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="aboutus.html">Meet The Team</a>
 
-                <h3>About Us</h3>
+                    <h3 class="non-mobile-header">My Top 9</h3>
+                    <h3 class="mobile-header">MENU</h3>
 
-                <a href="#">Contact</a>
-                <a href="#">Download</a>
-            </nav>
-            <div class="call-to-action">
-                <h1>About us</h1>
-                <h2>We built this website!</h2>
-                <button>Get the app here!</button>
-            </div>
+                    <a href="#">Contact Form</a>
+                    <a href="#">Log In</a>
+                </nav>
+                <div class="call-to-action">
+                    <h1>Meet the Team</h1>
+                    <h2>We built this website!</h2>
+                    <button>Get the app here!</button>
+                </div>
         </header>
         <h2 class="who-are-we">Who are we?</h2>
         <section class="banner">
-            <div class="box 1">
-                <img src="img/pic03.jpg" class="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit dolor neque
-                    semper magna lorem ipsum.</p>
+            <div class="banner1 box1">
+                <img src="img/steven.jpg" class="photo" alt="">
+                <p>Steven Vandenburg - WEBPT8<br>Web UI Developer</p>
+                <div class="github">
+                    <a href="https://www.github.com/smv5047" target="_blank"><img
+                            src="https://img.icons8.com/windows/48/000000/github.png"></a>
+                </div>
             </div>
-            <div class="box 2">
-                <img src="img/pic04.jpg" class="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit dolor neque
-                    semper magna lorem ipsum.</p>
+            <div class="banner1 box2">
+                <img src="img/ali.jpg" class="photo" alt="">
+                <p>Ali Dervisoglu - WEBPT8<br>Web UI Developer</p>
+                <div class="github">
+                    <a href="https://github.com/Ali-Dervisoglu" target="_blank"><img
+                            src="https://img.icons8.com/windows/48/000000/github.png"></a>
+                </div>
             </div>
-            <div class="box 3">
-                <img src="img/pic05.jpg" class="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit dolor neque
-                    semper magna lorem ipsum.</p>
+            <div class="banner1 box3">
+                <img src="img/jordan.png" class="photo" alt="">
+                <p>Jordan Hubbard - WEBPT6<br>React Developer</p>
+                <div class="github">
+                    <a href="https://github.com/thejhubbs" target="_blank"><img
+                            src="https://img.icons8.com/windows/48/000000/github.png"></a>
+                </div>
             </div>
         </section>
-        <button class="last-button">Elevate my awareness</button>
+        <div class="last-button">
+            <button>Get the app here!</button>
+        </div>
         <footer>
-            <p>© Untitled. All rights reserved.</p>
+            <p>© Vandenburg & Dervisoglu Design. All rights reserved.</p>
+            <a href="https://icons8.com/icon/63293/circled-9">Circled 9 icon by Icons8</a>
         </footer>
     </div>
+    </div>
+    <script src="js/aboutus.js"></script>
 </body>
