@@ -1,5 +1,4 @@
 const menuButtonSelector = document.querySelector('.mobile-header');
-
 const mobileBodySelector = document.querySelector('.mobilemove');
 const dropDownSelector = document.querySelector('.dropdown');
 const dropDownItemSelector = document.querySelectorAll('.dropdown-item')
@@ -9,7 +8,6 @@ function menuVisibility () {
 }
 
 menuButtonSelector.addEventListener('click', () => {
-    console.log('clicked menu')
     menuButtonSelector.classList.toggle("drop-body2")
     mobileBodySelector.classList.toggle("drop-body")
     dropDownSelector.classList.toggle("dropdown-down");

@@ -149,9 +149,10 @@ nav h3 {
 }
 
 button {
+    text-decoration: none;
     font-size: 1rem;
-    color: gray;
-    border: 1px solid gray;
+    color: black;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 1rem;
     background-color: white;
@@ -160,6 +161,13 @@ button {
 button:hover {
     color:  #3d348b;
     border: 1px solid #3d348b;
+    transition: transform .25s;
+    transform: scale(1.2);
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
 
 .call-to-action {
